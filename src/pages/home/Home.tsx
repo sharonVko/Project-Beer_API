@@ -4,23 +4,23 @@ import "./Home.css"
 
 const Home = () => {
     return ( 
-        <>
+        <div className="home-page">
        
         <section>
         <Link to={'/beerlist'}>
                 <img src="./IMGs/AllBeers.png" alt="Beer collection img" />
         </Link>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. </p>
+                <p>Explore our wide variety of beers from around the world. </p>
             
         </section>
         <section>
-            <Link to={'/'}>
-            <img src="./IMGs/RandomBeer.png" alt="Random beer ollection img" />
+            <Link to={'/randomView'}>
+            <img src="./IMGs/RandomBeer.png" alt="Random beer collection img" />
             </Link>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. </p>
+            <p>Let us find your next favorite brew. </p>
         </section>
         
-        </>
+        </div>
      );
 }
  
