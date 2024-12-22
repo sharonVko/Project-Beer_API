@@ -1,0 +1,13 @@
+.detail-card{
+    border: 2px solid grey;
+}
+
+.brew-date, .att-level{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.go-back_btn{
+    border-radius: 100px;
+}

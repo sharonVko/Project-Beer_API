@@ -1,0 +1,44 @@
+.preview-img{
+    width: 50%;
+}
+
+.preview-text{
+    width: 50%;
+    text-align: start;
+    padding-left: 30px;
+}
+.preview-text h4{
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+.tagline{
+    color: #FFCA41;
+    font-size: 1.6rem;
+    line-height: 28px;
+    margin: 0;
+}
+
+.card-body{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 540px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+.card-body hr{
+    border-top: 2px solid gray;
+}
+
+.detail-btn {
+    background-color: #FFCA41;
+    border-radius: 30px;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    border: #FFCA41;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: RobotoSlabReg;
+  }
