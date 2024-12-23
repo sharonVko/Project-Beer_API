@@ -52,7 +52,7 @@ const BeerDetailCard:React.FC<IDetailCardProps> = ({beer}) => {
                     <p>Attenuation level:</p>
                     <p>{singleBeer?.attenuation_level}</p>
                 </div>
-                <p>{singleBeer?.description}</p>
+                <p className='description'>{singleBeer?.description}</p>
                 <button onClick={() => navigate(-1)} type="button" className='go-back_btn'><img src="./IMGs/BackArrow.png" alt="go to previous page" /></button>
             </article>
         </>

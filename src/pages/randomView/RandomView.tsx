@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import BeerDetailCard from "../../components/beerDetailCard/BeerDetailCard";
 import { IBeer } from "../../../interface/IBeer";
+import FooterNav from "../../components/footerNav/FooterNav";
 
 
 
@@ -19,8 +20,8 @@ const RandomView: React.FC<IBeer>= () => {
 
     return ( 
         <>
-        <p>Randomview</p>
         <BeerDetailCard beer={randomBeer}/>
+        <FooterNav/>
         </>
      );
 }

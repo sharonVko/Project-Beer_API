@@ -1,5 +1,23 @@
 .detail-card{
-    border: 2px solid grey;
+    padding: 6%;
+    text-align: start;
+}
+
+.detail-card h4{
+    font-size: 2.4rem;
+    margin:  0;
+}
+
+.tagline{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 4px 0 30px 0;
 }
 
 .brew-date, .att-level{
@@ -7,7 +25,11 @@
     display: flex;
     justify-content: space-between;
 }
+.brew-date p, .att-level p{
+    margin: 0;
+}
 
 .go-back_btn{
     border-radius: 100px;
+    border: none;background: none;
 }
