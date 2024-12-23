@@ -40,13 +40,21 @@ Check it out on Netlify soon...
 1. Clone the repository:
 
 sh
-`git clone https://github.com/your-username/beer-api-project.git` 2. Navigate to the project directory:
+`git clone https://github.com/your-username/beer-api-project.git`
 
-`cd beer-api-project` 3. Install dependencies:
+2. Navigate to the project directory:
 
-`npm install` 4. Start the development server:
+`cd beer-api-project`
 
-`npm run dev` 5. Open your browser to see the application in action.
+3. Install dependencies:
+
+`npm install`
+
+4. Start the development server:
+
+`npm run dev`
+
+5. Open your browser to see the application in action.
 
 ## Usage
 
