@@ -1,18 +1,23 @@
 import BeerDetailCard from "../../components/beerDetailCard/BeerDetailCard";
 import FooterNav from "../../components/footerNav/FooterNav";
 import { IBeer } from '../../../interface/IBeer';
+import { useParams } from "react-router-dom";
 
 interface IDetailView {
-    beer : IBeer[] 
+    beers : IBeer[] 
 }
 
-const DetailView:React.FC<IDetailView> = ({beer}) => {
-    console.log(beer);
+const DetailView:React.FC<IDetailView> = ({beers}) => {
+    const { id } = useParams<{ id: string }>();
+    console.log(id);
+    
+    const singleBeer = beers.find(b => b._id === id);
+   /*  if (!beer) return <NotFound/>; */
+    console.log(singleBeer);
     
     return ( 
         <>
-        <h2>Detailview page</h2>
-        <BeerDetailCard beer={beer}/>
+        <BeerDetailCard beer={singleBeer}/>
         <FooterNav/>
         </>
      );

@@ -6,7 +6,7 @@ const FooterNav = () => {
         <>
         <footer>
             <Link to={'/'}>
-            <img src="./IMGs/BeerLogo.png" alt="Logo" />
+            <img src="/IMGs/BeerLogo.png" alt="Logo" />
             </Link>
         </footer>
         </>

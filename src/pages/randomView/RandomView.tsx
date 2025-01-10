@@ -6,7 +6,7 @@ import FooterNav from "../../components/footerNav/FooterNav";
 
 
 
-const RandomView: React.FC<IBeer>= () => {
+const RandomView: React.FC= () => {
     const[randomBeer, setRandomBeer] = useState<null | IBeer >(null)
 
 
