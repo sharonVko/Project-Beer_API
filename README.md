@@ -9,7 +9,7 @@ This project implements a beer selection web application based on a pre-designed
 ![screenshot](./public/IMGs/HomePreviewShot.png)
 ![screenshot](./public/IMGs/AllBeersPreviewShot.png)
 
-Check it out[here... 🍺](https://beer-shop-api.netlify.app/)
+Check it out [here... 🍺](https://beer-shop-api.netlify.app/)
 
 ## Features
 
