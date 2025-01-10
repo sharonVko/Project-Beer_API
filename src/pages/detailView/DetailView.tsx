@@ -12,7 +12,7 @@ const DetailView:React.FC<IDetailView> = ({beers}) => {
     console.log(id);
     
     const singleBeer = beers.find(b => b._id === id);
-   /*  if (!beer) return <NotFound/>; */
+   /*  if (!beer) return <NotFound404/>; */
     console.log(singleBeer);
     
     return ( 

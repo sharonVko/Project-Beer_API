@@ -9,7 +9,7 @@ This project implements a beer selection web application based on a pre-designed
 ![screenshot](./public/IMGs/HomePreviewShot.png)
 ![screenshot](./public/IMGs/AllBeersPreviewShot.png)
 
-Check it out on Netlify soon...
+Check it out[here... 🍺](https://beer-shop-api.netlify.app/)
 
 ## Features
 
@@ -40,7 +40,7 @@ Check it out on Netlify soon...
 1. Clone the repository:
 
 sh
-`git clone https://github.com/your-username/beer-api-project.git`
+`git clone git@github.com:sharonVko/Project-Beer_API.git`
 
 2. Navigate to the project directory:
 
