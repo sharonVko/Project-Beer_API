@@ -1,5 +1,5 @@
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+
   @font-face {
     font-family: "RobotoSlabReg";
     src: url("/fonts/RobotoSlabRegular.ttf");
@@ -36,6 +36,7 @@ h1 {
 
 button:hover {
   border-color: #646cff;
+  cursor: pointer;
 }
 button:focus,
 button:focus-visible {

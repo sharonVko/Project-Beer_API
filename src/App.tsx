@@ -7,6 +7,7 @@ import DetailView from './pages/detailView/DetailView'
 import RandomView from './pages/randomView/RandomView'
 import { useEffect, useState } from 'react'
 import { IBeer } from '../interface/IBeer'
+import NotFound404 from './pages/notFound404/NotFound404'
 
 
 /* interface IDetailProps{
@@ -37,6 +38,7 @@ function App() {
       <Route path='/beerList' element={<BeerList beers={beers}/>}/> // click on all beers
       <Route path='/detailView/:id' element={<DetailView beers={beers}  />}/> //via click on details btn 
       <Route path='/randomView' element={<RandomView/>}/>
+      <Route path='*' element={<NotFound404/>}/>
 
 
       </>

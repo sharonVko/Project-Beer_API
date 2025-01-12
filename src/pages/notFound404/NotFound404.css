@@ -1,0 +1,14 @@
+.not-found__container{
+    position: relative;
+}
+
+.not-found__container p{
+    font-size: 3rem;
+    font-weight: 600;
+    color: orange;
+    position: absolute;
+    top: -2%;
+    right: 20%
+}
+
+
