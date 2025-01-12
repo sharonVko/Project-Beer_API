@@ -9,7 +9,7 @@ This project implements a beer selection web application based on a pre-designed
 ![screenshot](./public/IMGs/HomePreviewShot.png)
 ![screenshot](./public/IMGs/AllBeersPreviewShot.png)
 
-Check it out [here... 🍺](https://beer-shop-api.netlify.app/)
+Check it out [here... Cheers! 🍺](https://beer-shop-api.netlify.app/)
 
 ## Features
 
@@ -33,7 +33,7 @@ Check it out [here... 🍺](https://beer-shop-api.netlify.app/)
 
 - react-router-dom: Handling the routing between different pages of the application.
 
-- Free API: Fetching data to display a variety of beers.
+- Free API: Fetching data to display a variety of beers. (https://ih-beers-api2.herokuapp.com/beers)
 
 ## How to Run the Project
 
